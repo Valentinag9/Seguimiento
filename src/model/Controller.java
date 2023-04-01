@@ -14,7 +14,7 @@ public class Controller {
 	
 	}
 	
-	//Incomplete
+	
 	public boolean RegisterProject(String name, String clientName , String type , int initialYear, int initialMonth , int initialDay , int finalYear, int finalMonth , int finalDay, double budget) {
 		Type typePO = Type.DESARROLLO;
 		if(type.equalsIgnoreCase("Despliegue")){
@@ -35,8 +35,6 @@ public class Controller {
 		return false;
 	}
 
-	//Incomplete
-	// Date class also has their own before() and after() method
 	public String searchProjectsAfterDate(int day, int month, int year)throws ParseException {
 
 		String msg = "";
@@ -54,8 +52,6 @@ public class Controller {
 
 	}
 	
-	//Incomplete
-	// Date class also has their own before() and after() method
 	public String searchProjectsBeforeDate(int day, int month, int year) throws ParseException{
 		String msg = "";
 		Calendar limitDate = new GregorianCalendar(year, month-1, day);

@@ -22,7 +22,7 @@ public class Main{
 
 	}
 
-	// Incomplete
+	
 	public void menu() throws ParseException{
 		System.out.println("Welcome to GreenSQA ");
 
@@ -55,7 +55,7 @@ public class Main{
 
 	}
 
-	//Incomplete
+	
 	public void RegisterProject() {
 		System.out.println("Enter the information of the new project below");
 
@@ -95,7 +95,7 @@ public class Main{
 		}
 	}
 
-	//Incomplete
+
 	public void searchProjectsAfterDate() throws ParseException {
 		System.out.println("Type the Day:");
 		int day = reader.nextInt();
@@ -106,7 +106,7 @@ public class Main{
 		System.out.println(controller.searchProjectsAfterDate(day, month, year));
 	}
 	
-	//Incomplete
+
 	public void searchProjectsBeforeDate() throws ParseException {
 		System.out.println("Type the Day:");
 		int day = reader.nextInt();
